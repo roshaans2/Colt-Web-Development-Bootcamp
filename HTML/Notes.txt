@@ -1,0 +1,3 @@
+<!DOCTYPE html> - Denotes HTML version
+<head> - Contains metadata
+We can have nested list by putting a ul tag inside a li tag
