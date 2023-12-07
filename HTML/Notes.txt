@@ -1,3 +1,11 @@
 <!DOCTYPE html> - Denotes HTML version
 <head> - Contains metadata
 We can have nested list by putting a ul tag inside a li tag
+
+Inline - Inline elements fit in alongside with other elements
+Block - Block elements take up whole block of space.
+
+Entity codes - Start with Ampersand and end with semicolon
+               Eg: Less than - &lt;
+
+Semantic Elements - Section, Header, Footer, Nav,Main, etc..

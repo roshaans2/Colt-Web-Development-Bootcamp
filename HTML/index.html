@@ -13,7 +13,8 @@
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-
+        <hr>
+        <br>
         <h3>Fruits</h3>
         <ol>
             <li>Apple</li>
@@ -26,9 +27,96 @@
             <li>Beetroot</li>
             <li>Carrot</li>
         </ul>
+        a<sup>2</sup>
+        <br>
+        H<sub>2</sub>O
+        <br>
+
+        <table border="1">
+            <caption>Personal Details</caption>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rakesh</td>
+                    <td>rakesh0123@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form>
+            <label for="username">Enter Username:</label>
+            <input id ="username" type="text" placeholder="username" name="username" required/><br>
+            <label for="password">Enter Password:</label>
+            <input id="password" type="password" placeholder="password" name="password" minlength="6" maxlength="25" required/><br>
+            <label for="color">Enter Color:</label>
+            <input id="color" type="color" name="color"/><br>
+            <label for="number">Enter Phone Number:</label>
+            <input id="number" type="number" placeholder="number" name="number"/>
+            <br>
+            <div>
+                <input type="checkbox" id="maths" name="maths" checked/>
+                <label for="maths">Maths</label>
+            </div>
+            <div>
+                <input type="checkbox" id="science" name="science" />
+                <label for="science">Science</label>
+            </div>
+            <div>
+                <input type="radio" id="radio-button" />
+                <label for="radio-button">Radio Button</label>
+            </div>
+            <div>
+                <lable for="meal">Choose your meal</lable>
+                <select name="meal" id="meal">
+                    <option value="paneer tikka">Paneer Tikka</option>
+                    <option value="mushroom masala">Mushroom Masala</option>
+                    <option value="gobi manchurian">Gobi Manchurian</option>
+                </select>
+            </div>
+            <div>
+                <input type="range" id="volume" name="volume" min="1" value="90" max="100"/>
+                <label for="volume">Adjust Volume</label>
+            </div>
+            <div>
+                <label for="story">Tell us your story</label>
+                <textarea id="story" name="story" rows="5" cols="33"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+
+        <!-- Enitity Code-->
+        1 &lt; 6
 
         <a href="https://www.linkedin.com/in/roshaan-s-70600a212/">My LinkedIn Account</a>
         <img src="https://media.licdn.com/dms/image/C560EAQGlaqaN2qg-xQ/rightRail-logo-shrink_200_200/0/1636732329458?e=1702548000&v=beta&t=PAcgxUdbVMM1rpMgGqm1yd6ApXlGfMkZFESCi2cMPzE" />
+        <br><br>
+        <h1>Race Registration!</h1>
+        <form>
+            <div>
+            First Name <input type="text" />
+            Last Name <input type="text" />
+            </div>
+            Select a Race:<br>
+            <input type="radio" name="race" id="fun"/>Fun Run 5k <br>
+            <input type="radio" name="race" id="full"/>Half Marathan <br>
+            <input type="radio" name="race" id="half"/>Full Marathon <br>
+            Email <input type="email" />
+            Password <input type="password" /><br>
+            Select Age Group 
+            <select>
+                <option>under 18</option>
+                <option>above 18</option>
+            </select>
+            <button>Register</button>
+
+        </form>
     </body>
 </html>
 
