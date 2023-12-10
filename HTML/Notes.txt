@@ -9,3 +9,43 @@ Entity codes - Start with Ampersand and end with semicolon
                Eg: Less than - &lt;
 
 Semantic Elements - Section, Header, Footer, Nav,Main, etc..
+
+Absolute sizing - px (Not recommended for resposnive webpages)
+Relative sizing - em,vh,etc..
+
+.post:nth-of-type(3) - Third element in post
+.post:nth-of-type(3n) - Every third element in post
+.post:nth-of-type(2n) - Every second element in post 
+
+If you give two different styles to same element, then the style that is put on the last is final
+
+Speficity - 
+Inline > ID Selector > Class Selector > Element 
+
+button{
+    background-color:magenta !important  --> More specific
+}
+
+Inheritence in CSS
+
+Children tag inherit properties from parent tag
+Example:
+body{
+    color:green;
+}
+Then every tag inside body will have color green.
+
+Certain elements does not inherit. To make them inherit,
+color: inherit
+
+If an element is inline, it does not have effect on width and height. We cannot set custom width and height.
+But if an element is inline-block, we can set custom width and height.
+
+width:50% - Half the width of parent element
+
+1em - Font size of parent
+2em - Twice the font size of parent
+
+rem - realtive to root html element
+If the root font size is 20px, then 1rem is always 20px. 2 rem is always 40px
+
