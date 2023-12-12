@@ -1,0 +1,5 @@
+NodeJS - Predominately used for creating web servers and Native apps.
+
+REPL - Read-Evaluate-Print-Loop - providing an interactive environment for executing JavaScript code on the command line
+
+npm (node package manager) - Whole bunch of packets that exist.
