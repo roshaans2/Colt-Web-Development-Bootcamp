@@ -1,0 +1,14 @@
+create new file - touch app.js index.js index.html
+Current Working Directory - pwd
+List all contents of the current directory - ls
+Change directory - cd directory_name
+Relative path - Relative to current location. Eg: cd Desktop
+Absolute path - Applicable on any folder on machine. Eg: cd /User/Desktop
+Create new directory - mkdir directory_name
+
+
+man - A command that gives information about commands
+Eg: man ls - It gives information about ls command
+
+Remove files - rm fil_name
+Remove directory - rmdir directory_name
