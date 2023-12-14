@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Subreddit</title>
+        <link rel="stylesheet" href="/app.css">
+    </head>
+    <body>
+        <h1>Your subreddit <%= name %></h1>
+        <h2>Description : <%= description %></h2>
+        <h3>Subscribers : <%= subscribers %></h3>
+        <% for(let post of posts){ %>
+            <artcile>
+                <p><%= post.title %> - <b> <%= post.author %> </b></p>
+                <% if(post.img){ %>
+                    <img src= "<%= post.img %>"  />
+                <% } %>
+            </artcile>
+        <% } %>
+    </body>
+</html>

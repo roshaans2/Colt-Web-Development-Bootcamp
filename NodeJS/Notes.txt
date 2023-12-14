@@ -7,3 +7,5 @@ node_modules - Have all dependies of the library installed.
 
 Express - Web framework for NodeJS. It helps us to build web apps.
 
+EJS - Embedded Javascript Templating
+

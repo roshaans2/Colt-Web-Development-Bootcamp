@@ -1,0 +1,9 @@
+<%- include('partials/head') %>
+        <%- include('partials/navbar') %>
+        <h1><%= batsmen %></h1>
+        <ul>
+        <% for(let i=0;i<batsmen.length;i++){ %>
+            <li><%= batsmen[i] %></li>
+        <% } %>
+        </ul>
+<%- include('partials/footer') %>
