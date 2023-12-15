@@ -1,0 +1,30 @@
+1. db
+2. show collections
+
+-- INSERT --
+
+3. db.employees.insertOne({name:"Maurya",age:21,salary:150000})
+4. db.employees.insert([{name:"Rakesh",age:21,salary:123000},{name:"Meera",age:21,salary:165000}])
+
+-- FINDING --
+
+5. db.employees.find()
+6. db.employees.find({age:21})
+7. db.employees.findOne({age:21})
+8. db.employees.find({age:{$gt:18}})
+9. db.employees.find({age:{$gte:18}})
+10. db.employees.find({age:{$lt:18}})
+11. db.employees.find({age:{$lte:18}})
+12. db.employees.find({name:{$in:["Maurya","Meera"]}})
+13. db.employees.find({name:{$nin:["Maurya","Meera"]}})
+
+-- UPDATING -- 
+
+14. db.employees.updateOne({name:"Maurya"},{$set:{age:23}})
+15. db.employees.updateOne({age:21},{$set:{age:23}})
+
+-- DELETE -- 
+
+16. db.employees.deleteMany({age:23})
+17. db.employees.deleteOne({age:23})
+
