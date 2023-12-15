@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Comment</title>
+    </head>
+    <body>
+        <h1>Make a new comment</h1>
+        <form action="/comments" method="post">
+            <section>
+                <label for="username">Enter username:</label>
+                <input type="text" placeholder="username" name="username" id="username"/>
+                <br>
+            </section>
+            <section>
+                <label for="comment">Comment Text:</label>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+            </section>
+            <button>submit</button>
+        </form>
+        <a href="/comments">Back to Index</a>
+    </body>
+</html>

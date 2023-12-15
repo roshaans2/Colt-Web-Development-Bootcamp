@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit</title>
+    </head>
+    <body>
+        <h1>Edit</h1>
+        <form action="/comments/<%= comment.id %>?_method=PATCH" method="POST">
+            <textarea name="comment" id="comment" cols="30" rows="10"><%= comment.comment %></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
