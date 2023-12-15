@@ -1,1 +1,9 @@
 BSON - Binary JSON, more compact version of JSON
+
+If your schema as constraints
+If you update, by default this constraints are not checked
+If you need to update following constraints,
+
+Product.findOneAndUpdate({name:"Shirt"},{price:2500},{new:true,runValidators:true})
+.then(data => console.log(data))
+.catch(err => console.log(err))
