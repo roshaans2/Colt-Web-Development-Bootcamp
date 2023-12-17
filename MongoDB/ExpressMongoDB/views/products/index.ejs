@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+    </head>
+    <body>
+        <h1><%= category %> Products</h1>
+        <table border="1">
+            <tr>
+                <th>Product</th>
+                <th>Price in Rs</th>
+                <th>Category</th>
+            </tr>
+            <% for(let p of products){ %>
+                <tr>
+                    <td><a href="/products/<%= p.id %>"><%= p.name %></a></td>
+                    <td><%= p.price %></td>
+                    <td><%= p.category %></td>
+                </tr>
+            <% } %>
+        </table>
+        <br>
+        <button><a href="/products/new">Add Product</a></button>
+        <% if(category != 'All'){ %>
+            <button><a href="/products">All Products</a></button>
+        <% } %>
+    </body>
+</html>

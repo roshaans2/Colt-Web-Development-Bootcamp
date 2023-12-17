@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= product.name %></title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Category</th>
+            </tr>
+            <tr>
+                <td><%= product.name %></td>
+                <td><%= product.price %></td>
+                <td><a href="/products?category=<%= product.category %>"><%= product.category %></a></td>
+            </tr>
+        </table>
+        <br>
+        <button><a href="/products">All products</a></button>
+        <button><a href="/products/<%= product.id %>/edit">Edit</a></button>
+        <form action="/products/<%= product.id %>?_method=DELETE" method="POST">
+            <button>Delete</button>
+        </form>
+    </body>
+</html>
