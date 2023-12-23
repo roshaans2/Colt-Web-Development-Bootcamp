@@ -1,0 +1,12 @@
+Cookies are little bit of information that are stored in a user's browser when browsing a particular website
+Once a cookie is set, user will send the cookie on every subsequent request to the site
+
+Signed cookies are not available in req.cookies because they are signed
+
+Sessions are server-side storage mechanisms for storing and managing user-specific information.
+A unique identifier (usually in the form of a session ID) is typically stored in a cookie on the client side.
+The server uses this session ID to associate the client with a specific session data store.
+Session data can store larger amounts of information compared to cookies since it's stored on the server.
+Sessions are generally more secure than cookies since the data is not exposed to the client.
+
+cookies are stored on the client side and are limited in size, while sessions are stored on the server side and can handle larger amounts of data. Cookies are often used to implement sessions by storing a session ID on the client side, allowing the server to identify and retrieve session data.
