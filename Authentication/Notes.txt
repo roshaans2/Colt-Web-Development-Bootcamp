@@ -1,0 +1,11 @@
+Authentication - A process of verifying who a particular user is
+Authorization - A process of verifying what a specific user has access to
+
+Password are not stored directly
+Only hashed passwords are stored
+
+Passwords are hashed using Hashing functions
+
+Salt is a random value added to password before we hash it
+It helps to ensure unique hashes and mitigate common attacks
+
