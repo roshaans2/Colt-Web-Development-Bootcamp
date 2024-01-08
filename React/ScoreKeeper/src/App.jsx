@@ -1,11 +1,12 @@
 import { useState } from 'react'
 
 import './App.css'
-import ScoreKeeper from '../components/ScoreKeeper'
+import ScoreKeeper from './components/ScoreKeeper'
+
 
 function App() {
   return (
-    <ScoreKeeper/>
+    <ScoreKeeper numPlayers={3} target={5}/>
   )
 }
 
